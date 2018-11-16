@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Fri Sep 21 19:15:36 HST 2018
+0.baseType=DIRECTORY
+0.base=C\:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\assets\\debug
+0.path=license.lic
+0.set=ASSET
+count=1

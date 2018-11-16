@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+
+    <!--  ABE-Stat Activity Title and Buttons -->
+    <string name="app_name">ABE-Stat</string>
+    <string name="app_name_class">ABE-Stat</string>
+    <string name="connect_manager">MENÚ DE CONEXIÓN</string>
+    <string name="start_analysis">Iniciar análisis</string>
+    <string name="dataviewheading">Datos guardados: %1$s, %2$s</string>
+
+    <string name="measure">Opción de medición</string>
+
+    <string name="electrode_config">Configuración del electrodo</string>
+    <string name="vopen">Potencial (mV)</string>
+    <string name="ibiased">I (nA)</string>
+    <string name="resistor">R (Ω)</string>
+    <string name="capacitor">C (pF)</string>
+    <string name="three_electrode">3 electrodos</string>
+    <string name="two_electrode">2 electrodos</string>
+    <string name="bias_voltage">Voltaje de polarización (mV)</string>
+    
+    <!--  Bluetooth -->
+    <string name="send">Enviar</string>
+    <string name="view">Trazar</string>
+    <string name="not_connected">No está conectado a un dispositivo</string>
+    <string name="bt_not_enabled_leaving">Bluetooth no fue habilitado. Saliendo ABEStat</string>
+    <string name="title_connecting">Conectando...</string>
+    <string name="title_connected_to">Conectado:</string>
+    <string name="title_not_connected">No conectado</string>
+    <string name="unrecoverable_break">el dispositivo no responde, restablecimiento remoto...</string>
+    <string name="restoring_connection">tratando de restaurar la conexión...</string>
+
+    <!-- Default Method Strings -->
+    <string name="default_cv">Voltamperometría Cíclico Defecto</string>
+    <string name="default_eis">Espectroscopia Impedancia Electroquímica Defecto</string>
+    <string name="default_dpv">Voltamperometría  Differential Pulse Voltammetry</string>
+    <string name="default_asv">Default Anodic Stripping Voltammetry</string>
+
+    <!--  DeviceListActivity -->
+    <string name="scanning">buscando dispositivos...</string>
+    <string name="select_device">seleccione un dispositivo para conectar</string>
+    <string name="none_paired">Ningún dispositivo ha sido vinculado</string>
+    <string name="none_found">No se encontró ningún dispositivo</string>
+    <string name="title_paired_devices">Dispositivos vinculados</string>
+    <string name="title_other_devices">Otros dispositivos disponibles</string>
+    <string name="button_scan">Buscar dispositivos</string>
+    <string name="cancel">Cancelar</string>
+    <string name="disconnect">Desconectar</string>
+
+    <!-- Options Menu -->
+    <string name="share_data">Compartir datos</string>
+    <string name="choices">OPCIONES</string>
+    <string name="connect">MENÚ DE CONEXIÓN</string>
+    <string name="analysis">Métodos de edición</string>
+    <string name="shutdown">Apagado remoto</string>
+    
+    <!-- Database edit fields for updating real time LAMP method -->
+    <string name="no_methods">Aún no hay métodos</string>
+    <string name="methods_list">Seleccione un método de análisis</string>
+    <string name="settings_manager">MÉTODO DE ANÁLISIS</string>
+    <string name="menu_insert">Añadir nuevo método</string>
+    <string name="menu_delete">Eliminar método</string>
+
+    <string name="eis_start_frequency">Frecuencia inicial (Hz)</string>
+    <string name="eis_end_frequency">Frecuencia final (Hz)</string>
+    <!--<string name="eis_interval_frequency"></string> -->
+    <string name="eis_bias_voltage">Voltaje de polarización CC (V)</string>
+    <string name="start_voltage">Voltaje inicial (V)</string>
+    <string name="end_voltage">Voltaje final (V)</string>
+    <string name="scan_rate">Velocidad de escaneo (V/s)</string>
+    <string name="scan_number">Número de ciclos</string>
+    <string name="step_frequency">Frecuencia de pulsos (Hz)</string>
+    <string name="step_e">Rampa de potencial (mV)</string>
+    <string name="pulse_amplitude">Amplitud de pulso (mV)</string>
+    <string name="electrode_configuration">Configuración del electrodo</string>
+    <string name="open_circuit_config">Configuración del circuito abierto</string>
+    <string name="two_electrode_configuration">Configuración de 2 electrodos</string>
+    <string name="three_electrode_configuration">Configuración de 3 electrodos</string>
+    <string name="equilibrium_time">Tiempo de equilibrio (s)</string>
+    <string name="method_name">Nombre del método</string>
+    <string name="confirm">Confirmar</string>
+    <string name="infinite">Infinito</string>
+    <string name="methods_heading">Métodos definidos (haga clic para editar, haga una pulsación larga para eliminar):</string>
+    <string name="method_default">Método</string>
+    <string name="exit">Salir…</string>
+    <string name="lazy_method">Los nuevos ajustes no hacen nada, ¡cambios no guardados!</string>
+    
+    <!-- Real_Time_Activity Strings -->
+    <string name="spectrum">Espectro</string>
+    <string name="gray">Escala de grises</string>
+    <string name="quit">SALIR</string>
+    <string name="save_data">Guardar datos</string>
+    <string name="data_select">Selección de datos del gráfico:</string>
+    <string name="impedance">|Z| (Ω)</string>
+    <string name="zreal">Zreal (Ω)</string>
+    <string name="zimag">-Zimag (Ω)</string>
+    <string name="phi">φ (°)</string>
+    <string name="potential">E (V)</string>
+    <string name="current">Corriente (nA)</string>
+    <string name="frequency">Frecuencia (Hz)</string>
+    <string name="log_f">log(f) / Hz</string>
+    <string name="log_z">log|Z| / Ω</string>
+    <string name="chart_data">Datos del gráfico:</string>
+    <string name="quit_query">¿Seguro que quiere salir del análisis en tiempo real?</string>
+    <string name="exit_query">¿Seguro que quiere salir del visor de datos?</string>
+    <string name="cal_query">¿Seguro que quiere sobrescribir los datos de calibración?</string>
+    <string name="batt_query">¿Seguro que la batería está completamente cargada?</string>
+    <string name="ctrl_query">¿Seguro que quiere entrar al nuevo punto de ajuste?</string>
+    <string name="yes">sí</string>
+    <string name="no">no</string>
+    <string name="data_labels">Muestras de etiquetas</string>
+    <string name="ext_not_available">Advertencia: ¡el almacenamiento externo de datos no está disponible para escribir datos!</string>
+    <string name="not_heating">El dispositivo no está calentando como se esperaba, ¡apagando calentador! Revise el sensor y el calentador...</string>
+    <string name="too_hot">El dispositivo de seguridad superó la temperatura segura de funcionamiento, ¡apagando calentador!</string>
+    <string name="file_not_written">El almacenamiento externo no se puede escribir actualmente, datos no guardados...</string>
+    <string name="file_save_not_checked">Datos no guardados</string>
+    <string name="files_not_read">El almacenamiento externo no está disponible, o el directorio de datos aún no existe...</string>
+    <string name="no_bluetooth_device">Este dispositivo Android no tiene Bluetooth...</string>
+    <string name="bluetooth_not_on">El Bluetooth actualmente no está habilitado...</string>
+    <string name="insufficient_battery">Batería insuficiente...</string>
+    
+    <!-- AttachActivity and Data_View_Activity Strings -->
+    <string name="files_heading">Archivos ABEStat disponibles para compartir:</string>
+    <string name="file_sharing">Compartir archivos</string>
+    <string name="back_to_main">Volver al menú principal</string>
+    <string name="file_corrupted">Archivo corrupto, ¡el archivo no pudo analizar los datos!</string>
+
+    <!-- Available Methodology Strings -->
+    <string name="cyclic_voltammetry">Voltamperometría cíclica (CV)</string>
+    <string name="electrochemical_impedance_spectroscopy">Espectroscopía de impedancia electroquímica (EIS)</string>
+    <string name="anodic_stripping_voltammetry">Voltamperometría de redisolución anódica (ASV)</string>
+    <string name="differential_pulse_voltammetry">Voltamperometria de pulso diferencial (DPV)</string>
+
+    <!-- string for reporting back device temperature during temperature calibration -->
+    <string name="reported_temperature">Temperatura actual: %1$.2f° C</string>
+
+    <string name="analysis_complete">¡Análisis de %1$s completo!</string>
+    <string name="equilibration_time_remaining">%1$s %2$d de equilibrio</string>
+
+    <string name="signal_amplitude">Amplitud de señal (pico a pico)</string>
+    <string name="amplitude0">20mV</string>
+    <string name="amplitude1">40mV</string>
+    <string name="amplitude2">100 mV</string>
+    <string name="amplitude3">200 mV</string>
+    
+    <!-- formatted string for reporting back temperature standards stored in ABE EEPROM -->
+    <string name="temp_standards">La calibración existente señala %1$.1f° C y %2$.1f° C, MSTemp- %3$.1f° C</string>
+    
+    <!-- string for reporting RFU value and saturation code in calibration activity -->
+    <string name="cal_report">Informe: lectura de RFU %1$d, código de saturación %2$d</string>
+    
+    <!-- string for reporting RFU value and saturation code in calibration activity -->
+    <string name="scaled_rfu_report">RFU escalado: %1$d</string>
+
+    <string name="axis_settings">Ajustes del eje</string>
+    <string name="linearplot">Lineal</string>
+    <string name="logplot">Registro</string>
+    <string name="nyquist">Nyquist</string>
+
+    <!-- string for reporting RFU value and saturation code in calibration activity -->
+    <string name="rt_device_method">Dispositivo %1$s</string>
+    <string name="rt_device_disconnected">Dispositivo %1$s\ncompletado: %2$s (desconectado)</string>
+    <string name="rt_device_lost">La conexión del dispositivo %1$s se ha perdido\n%2$s incompleto...</string>
+    
+    <!-- String to send to toast when user enters process parameters outside of valid range -->
+    <string name="outside_range_toast">%1$s debe estar entre %2$d y %3$d...</string>
+    
+    <!-- FileName String -->
+    <string name="file_name_string">%1$s__%2$s-%3$s-%4$s %5$s_%6$s_%7$s.csv</string>
+    <string name="date_string">%1$s/%2$s/%3$s %4$s:%5$s:%6$s</string>
+
+    <string name="vopen_report">Potencial de circuito abierto: %1$s mV\nTemperatura de dispositivo: %2$.2f\u00B0C\nTemperatura de termopar: %3$s</string>
+    <string name="resistor_report">Resistencia CC de célula: %1$s Ω\nTemperatura de dispositivo: %2$.2f\u00B0C\nTemperatura de termopar: %3$s</string>
+    <string name="capacitor_report">Capacidad de célula: %1$s pF (fase %2$s°)\nTemperatura de dispositivo: %3$.2f\u00B0C\nTemperatura de termopar: %4$s</string>
+    <string name="current_report">Corriente de célula: %1$s nA a una polarización de %2$s mV\nTemperatura de dispositivo: %3$.2f\u00B0C\nTemperatura de termopar: %4$s</string>
+    <string name="degrees_c">\u00B0C</string>
+
+    <string name="eis_report">f %1$s Hz\n|Z| %2$sΩ\nφ %3$s\u00B0</string>
+    <string name="cv_report">E(V): %1$s\nI(nA): %2$s</string>
+    <string name="temperature_report">Temperatura de dispositivo: %1$.2f\u00B0C\nTemperatura de termopar: %2$s</string>
+    <string name="battery_report">Batería: %1$d</string>
+
+    <!-- Method Summary formatting strings -->
+    <!---<string name="cv_method_string">&lt;b>%1$s (CV):&lt;/b>&lt;br/>%2$s V to %3$s V, %4$s V/s&lt;br/>%5$s s Equilibration, %6$s cycles&lt;br/>%7$s</string>
+    <string name="dpv_method_string">&lt;b>%1$s (DPV):&lt;/b>&lt;br/>%2$s V to %3$s V&lt;br/>%4$sHz %5$smV step %6$smV pulse&lt;br/>%7$s s Equilibration, %8$s cycles&lt;br/>%9$s</string>
+    <string name="eis_method_string">&lt;b>%1$s (EIS):&lt;/b>&lt;br/>%2$s Hz to %3$s Hz, \u0394%4$s Hz %5$s&lt;br/>%6$s s Equilibration at %7$s V bias&lt;br/>%8$s</string> -->
+
+    <string name="cv_method_string">%1$s (CV):\n%2$s V a %3$s V, %4$s V/s\n%5$s s de equilibrio, %6$s ciclos\n%7$s</string>
+    <string name="dpv_method_string">%1$s (DPV):\n%2$s V a %3$s V\n%4$s Hz %5$s mV fase %6$s mV pulso\n%7$s s de equilibrio, %8$s ciclos\n%9$s</string>
+    <!--<string name="eis_method_string">%1$s (EIS):\n%2$s Hz a %3$s Hz, Δ %4$s Hz %5$s\n%6$s s de equilibrio a una polarización de %7$s V\n%8$s</string>-->
+
+    <!-- Titles -->
+    <string name="new_method">Ajustes del análisis</string>
+
+    <!-- New and orphaned strings translated September 2018 -->
+    <string name="analyzing">%1$s analizando...</string>
+    <string name="time_heading">Tiempo (min)</string>
+    <string name="open_circuit">Circuito abierto</string>
+    <string name="delete">Eliminar archivos</string>
+    <string name="delete_dialog">¿Seguro que quiere eliminar los archivos seleccionados?</string>
+    <string name="default_slo">Registro estático predeterminado</string>
+    <string name="no_data_to_view">Seleccione los datos para ver</string>
+    <string name="too_much_data_to_view">Seleccione solo un archivo de datos para ver</string>
+    <string name="no_data_to_share">Seleccione el/los archivo(s) para compartir</string>
+    <string name="no_files_to_delete">Seleccione el/los archivo/s para eliminar</string>
+    <string name="eis_interval_frequency">Muestras por década de frecuencia</string>
+    <string name="applied_potential">Potencial aplicado (V)</string>
+    <string name="log_duration">Duración de registro (min)</string>
+    <string name="temperature">T (°C)</string>
+    <string name="static_logging">Registro estático</string>
+    <string name="eis_method_string">%1$s (EIS):\n%2$s Hz a %3$s Hz, %4$s muestras/década %5$s pico\n%6$s s equilibrio a sesgo de %7$s V\n%8$s</string>
+    <string name="applied_potential_string">%1$s V</string>
+    <string name="record_duration_string">%1$s min</string>
+    <string name="open_ended_duration">Abierto</string>
+    <string name="static_record_string">%1$s (Registro estático):\n%2$s s Equilibrio\nDuración %3$s\n%4$s %5$s</string>
+</resources>

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+
+    <!--  ABE-Stat Activity Title and Buttons -->
+    <string name="app_name">ABE-Stat</string>
+    <string name="app_name_class">ABE-Stat</string>
+    <string name="connect_manager">연결 메뉴</string>
+    <string name="start_analysis">분석 시작</string>
+    <string name="dataviewheading">저장된 데이터: %1$s, %2$s</string>
+
+    <string name="measure">측정 단위 옵션</string>
+    <string name="electrode_config">전극 구성</string>
+    <string name="vopen">전위 (mV)</string>
+    <string name="ibiased">I (nA)</string>
+    <string name="resistor">R (Ω)</string>
+    <string name="capacitor">C (pF)</string>
+    <string name="three_electrode">3 전극</string>
+    <string name="two_electrode">2 전극</string>
+    <string name="bias_voltage">바이어스 전압 (mV)</string>
+    
+    <!--  Bluetooth -->
+    <string name="send">보내기</string>
+    <string name="view">그리기</string>
+    <string name="not_connected">기기에 연결되어 있지 않습니다</string>
+    <string name="bt_not_enabled_leaving">블루투스가 활성화 되지 않았습니다. ABEStat를 종료합니다</string>
+    <string name="title_connecting">연결 중...</string>
+    <string name="title_connected_to">연결됨:</string>
+    <string name="title_not_connected">연결되지 않음</string>
+    <string name="unrecoverable_break">기기가 응답하지 않습니다, 원격 재설정...</string>
+    <string name="restoring_connection">연결 복원 시도 중...</string>
+
+    <!-- Default Method Strings -->
+    <string name="default_cv">기본 순환 전압전류곡선</string>
+    <string name="default_eis">기본 전기화학적 임피던스 분광</string>
+    <string name="default_dpv">기본 펄스차이 전압전류곡선</string>
+    <string name="default_asv">기본 양극벗김 전압전류법</string>
+
+    <!--  DeviceListActivity -->
+    <string name="scanning">기기 스캔 중...</string>
+    <string name="select_device">연결할 기기를 선택하세요</string>
+    <string name="none_paired">페어링 된 기기가 없습니다</string>
+    <string name="none_found">기기를 찾을 수 없습니다</string>
+    <string name="title_paired_devices">페어링 된 기기</string>
+    <string name="title_other_devices">다른 사용 가능한 기기</string>
+    <string name="button_scan">기기 검색</string>
+    <string name="cancel">취소</string>
+    <string name="disconnect">연결 끊기</string>
+
+    <!-- Options Menu -->
+    <string name="share_data">데이터 공유</string>
+    <string name="choices">옵션</string>
+    <string name="connect">연결 메뉴</string>
+    <string name="analysis">방법 편집</string>
+    <string name="shutdown">원격 종료</string>
+    
+    <!-- Database edit fields for updating real time LAMP method -->
+    <string name="no_methods">아직 방법이 없습니다</string>
+    <string name="methods_list">분석 방법 선택</string>
+    <string name="settings_manager">분석 방법</string>
+    <string name="menu_insert">새 방법 추가</string>
+    <string name="menu_delete">방법 삭제</string>
+
+    <string name="eis_start_frequency">시작 진동수 (Hz)</string>
+    <string name="eis_end_frequency">끝 진동수 (Hz)</string>
+    <!--<string name="eis_interval_frequency"></string> -->
+    <string name="eis_bias_voltage">DC 바이어스 진동수 (V)</string>
+    <string name="start_voltage">시작 전압 (V)</string>
+    <string name="end_voltage">끝 전압 (V)</string>
+    <string name="scan_rate">비율 스캔 (V/s)</string>
+    <string name="scan_number">주기의 수</string>
+    <string name="step_frequency">스탭 진동수 (Hz)</string>
+    <string name="step_e">스탭 전위 (mV)</string>
+    <string name="pulse_amplitude">펄스 진폭 (mV)</string>
+    <string name="electrode_configuration">전극 구성</string>
+    <string name="open_circuit_config">회로 구성 열기</string>
+    <string name="two_electrode_configuration">2 전극 구성</string>
+    <string name="three_electrode_configuration">3 전극 구성</string>
+    <string name="equilibrium_time">평형 시간 (s)</string>
+    <string name="method_name">방법 이름</string>
+    <string name="confirm">확인</string>
+    <string name="infinite">무한</string>
+    <string name="methods_heading">정의된 방법 (클릭하여 편집, 길게 클릭하여 삭제):</string>
+    <string name="method_default">방법</string>
+    <string name="exit">종료...</string>
+    <string name="lazy_method">새로운 설정은 영향을 미치지 않을 것입니다- 변경 사항이 저장되지 않았습니다!</string>
+    
+    <!-- Real_Time_Activity Strings -->
+    <string name="spectrum">스펙트럼</string>
+    <string name="gray">그레이 스케일</string>
+    <string name="quit">종료</string>
+    <string name="save_data">데이터 저장</string>
+    <string name="data_select">차트 데이터 선택:</string>
+    <string name="impedance">|Z| (Ω)</string>
+    <string name="zreal">Zreal (Ω)</string>
+    <string name="zimag">-Zimag (Ω)</string>
+    <string name="phi">φ (°)</string>
+    <string name="potential">E (V)</string>
+    <string name="current">전류 (nA)</string>
+    <string name="frequency">진동수 (Hz)</string>
+    <string name="log_f">log(f) / Hz</string>
+    <string name="log_z">log|Z| / Ω</string>
+    <string name="chart_data">차트 데이터:</string>
+    <string name="quit_query">정말 실시간 분석을 종료 하시겠습니까?</string>
+    <string name="exit_query">정말 데이터 뷰어를 종료 하시겠습니까?</string>
+    <string name="cal_query">정말 보정 데이터를 덮어쓰기 하시겠습니까?</string>
+    <string name="batt_query">배터리가 완전히 충전되어 있나요?</string>
+    <string name="ctrl_query">정말 새 세트 포인트를 입력하시겠습니까?</string>
+    <string name="yes">예</string>
+    <string name="no">아니요</string>
+    <string name="data_labels">샘플 레이블</string>
+    <string name="ext_not_available">경고: 외부 데이터 저장소에 데이터를 기록할 수 없습니다!</string>
+    <string name="not_heating">기기가 예상 했던데로 가열되지 않고 있습니다- 히터를 종료합니다! 센서와 히터를 확인해 주세요...</string>
+    <string name="too_hot">기기가 안전한 운영 온도를 돌파했습니다- 히터를 종료합니다!</string>
+    <string name="file_not_written">현재 외부 저장소에 쓸 수 없습니다- 데이터가 저장되지 않았습니다...</string>
+    <string name="file_save_not_checked">데이터가 저장되지 않았습니다</string>
+    <string name="files_not_read">외부 저장소를 사용할 수 없거나, 데이터 디렉토리가 아직 존재하지 않습니다...</string>
+    <string name="no_bluetooth_device">이 안드로이드 기기에는 블루투스 기능이 없습니다...</string>
+    <string name="bluetooth_not_on">현재 블루투스가 활성화되어있지 않습니다...</string>
+    <string name="insufficient_battery">배터리 부족...</string>
+    
+    <!-- AttachActivity and Data_View_Activity Strings -->
+    <string name="files_heading">공유 가능한 ABEStat 파일:</string>
+    <string name="file_sharing">파일 공유</string>
+    <string name="back_to_main">메인으로 돌아가기</string>
+    <string name="file_corrupted">파일이 오염되었습니다- 데이터를 구문 분석할 수 없습니다!</string>
+
+    <!-- Available Methodology Strings -->
+    <string name="cyclic_voltammetry">순환 전압전류곡선 (CV)</string>
+    <string name="electrochemical_impedance_spectroscopy">전기화학적 임피던스 분광 (EIS)</string>
+    <string name="anodic_stripping_voltammetry">양극 스트리핑 전압전류법 (ASV)</string>
+    <string name="differential_pulse_voltammetry">펄스차이 전압전류곡선 (DPV)</string>
+
+    <!-- string for reporting back device temperature during temperature calibration -->
+    <string name="reported_temperature">현재 온도: %1$.2f°C</string>
+
+    <string name="analysis_complete">%1$s 분석 완료!</string>
+    <string name="equilibration_time_remaining">%1$s%2$d  평형화 중</string>
+
+    <string name="signal_amplitude">신호 진폭 (피크에서 피크로)</string>
+    <string name="amplitude0">20mV</string>
+    <string name="amplitude1">40mV</string>
+    <string name="amplitude2">100mV</string>
+    <string name="amplitude3">200mV</string>
+    
+    <!-- formatted string for reporting back temperature standards stored in ABE EEPROM -->
+    <string name="temp_standards">캘리브레이션 포인트가 %1$.1f°C 와 %2$.1f°C 에 존재하며, MSTemp- %3$.1f°C</string>
+    
+    <!-- string for reporting RFU value and saturation code in calibration activity -->
+    <string name="cal_report">보고서: 원시 RFU 읽기 %1$d , 포화 코드 %2$d</string>
+    
+    <!-- string for reporting RFU value and saturation code in calibration activity -->
+    <string name="scaled_rfu_report">배율된 RFU: %1$d</string>
+
+    <string name="axis_settings">축 설정</string>
+    <string name="linearplot">선형</string>
+    <string name="logplot">로그</string>
+    <string name="nyquist">나이퀴스트</string>
+
+    <!-- string for reporting RFU value and saturation code in calibration activity -->
+    <string name="rt_device_method">기기 %1$s</string>
+    <string name="rt_device_disconnected">기기 %1$s\n완료됨:%2$s (연결 끊김)</string>
+    <string name="rt_device_lost">기기 %1$s 연결 끊김\n%2$s 불완전...</string>
+    
+    <!-- String to send to toast when user enters process parameters outside of valid range -->
+    <string name="outside_range_toast">%1$s 는 %2$d 와 %3$d 사이에 있어야 합니다...</string>
+    
+    <!-- FileName String -->
+    <string name="file_name_string">%1$s__%2$s-%3$s-%4$s %5$s_%6$s_%7$s.csv</string>
+    <string name="date_string">%1$s/%2$s/%3$s %4$s:%5$s:%6$s</string>
+
+    <string name="vopen_report">개방 회로 전위: %1$s mV\n기기 온도: %2$.2f\u00B0C\n열전대 온도: %3$s</string>
+    <string name="resistor_report">셀 DC 저항: %1$s Ω\n기기 온도: %2$.2f\u00B0C\n열전대 온도: %3$s</string>
+    <string name="capacitor_report">셀 용량: %1$s pF (단계 %2$s°)\n기기 온도: %3$.2f\u00B0C\n열전대 온도: %4$s</string>
+    <string name="current_report">현재 셀: %2$s mV 바이어스에서 %1$s nA \n기기 온도: %3$.2f\u00B0C\n열전대 온도: %4$s</string>
+    <string name="degrees_c">\u00B0C</string>
+
+    <string name="eis_report">f %1$s Hz\n|Z| %2$sΩ\nφ %3$s\u00B0</string>
+    <string name="cv_report">E(V): %1$s\nI(nA): %2$s</string>
+    <string name="temperature_report">기기 온도: %1$.2f\u00B0C\n열전대 온도: %2$s</string>
+    <string name="battery_report">배터리: %1$d</string>
+
+    <!-- Method Summary formatting strings -->
+    <!---<string name="cv_method_string">&lt;b>%1$s (CV):&lt;/b>&lt;br/>%2$s V to %3$s V, %4$s V/s&lt;br/>%5$s s Equilibration, %6$s cycles&lt;br/>%7$s</string>
+    <string name="dpv_method_string">&lt;b>%1$s (DPV):&lt;/b>&lt;br/>%2$s V to %3$s V&lt;br/>%4$sHz %5$smV step %6$smV pulse&lt;br/>%7$s s Equilibration, %8$s cycles&lt;br/>%9$s</string>
+    <string name="eis_method_string">&lt;b>%1$s (EIS):&lt;/b>&lt;br/>%2$s Hz to %3$s Hz, \u0394%4$s Hz %5$s&lt;br/>%6$s s Equilibration at %7$s V bias&lt;br/>%8$s</string> -->
+
+    <string name="cv_method_string">%1$s (CV):\n%2$s V 에서 %3$s V, %4$s V/s\n%5$s s 평형, %6$s 주기\n%7$s</string>
+    <string name="dpv_method_string">%1$s (DPV):\n%2$s V 에서 %3$s V\n%4$sHz %5$smV 스텝 %6$s mV 펄스\n%7$s s 평형, %8$s 주기\n%9$s</string>
+    <!--<string name="eis_method_string">%1$s (EIS):\n%2$s Hz 에서 %3$s Hz, Δ%4$s Hz %5$s\n%6$s s 평형에서 %7$s V 바이어스\n%8$s</string>-->
+
+    <!-- Titles -->
+    <string name="new_method">분석 설정</string>
+
+    <!-- New and orphaned strings translated September 2018 -->
+    <string name="analyzing">%1$s 분석 중 ...</string>
+    <string name="time_heading">시간 (분)</string>
+    <string name="open_circuit">개방 회로</string>
+    <string name="delete">파일 삭제</string>
+    <string name="delete_dialog">선택한 파일을 삭제 하시겠습니까?</string>
+    <string name="default_slo">기본 정적 기록</string>
+    <string name="no_data_to_view">보려는 데이터를 선택하십시오.</string>
+    <string name="too_much_data_to_view">보려는 데이터 파일을 하나만 선택하십시오.</string>
+    <string name="no_data_to_share">공유 할 파일을 선택하십시오.</string>
+    <string name="no_files_to_delete">삭제할 파일을 선택하십시오.</string>
+    <string name="eis_interval_frequency">10년간 빈번하게 본 샘플</string>
+    <string name="applied_potential">응용 잠재력 (V)</string>
+    <string name="log_duration">기록 기간 (분)</string>
+    <string name="temperature">T (℃)</string>
+    <string name="static_logging">정적 기록</string>
+    <string name="eis_method_string">%1$s (EIS):\n%2$s Hz부터 %3$s Hz까지, %4$s 샘플/10년기간 %5$s 피크\n%7$s V 바이어스에서의 %6$s 의 평행\n%8$s</string>
+    <string name="applied_potential_string">%1$s V</string>
+    <string name="record_duration_string">%1$s 분</string>
+    <string name="open_ended_duration">개방형</string>
+    <string name="static_record_string">%1$s (정적 기록):\n%2$s s 평형화\n기간 %3$s\n%4$s %5$s</string>
+</resources>

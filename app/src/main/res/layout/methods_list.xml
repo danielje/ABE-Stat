@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <TextView android:id="@+id/methods_heading"
+	    android:text="@string/methods_heading"
+	    style="@style/View_Heading" />
+    
+    <LinearLayout android:id="@+id/mainsection"
+	    android:layout_below="@+id/methods_heading"
+	    android:layout_above="@+id/main_bottom_button_cluster" 
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:orientation="vertical"
+	    android:padding="10dp">
+	  	
+	  	<ListView android:id="@+id/android:list"
+	        android:textColor="#FFAAAAAA"
+	        android:cacheColorHint="#fff"
+	        android:layout_below="@id/methods_heading"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content" />
+	  	
+	  	<TextView android:id="@+id/android:empty"
+	  	    android:textColor="#FFAAAAAA"
+	  	    android:layout_below="@id/methods_heading"
+	  	    android:layout_width="fill_parent"
+	  	    android:layout_height="wrap_content"
+	  	    android:text="@string/no_methods" />    
+        
+    </LinearLayout>
+  	
+  	<LinearLayout android:id="@+id/main_bottom_button_cluster"
+        android:layout_alignParentBottom="true"
+        style="@style/TabBar">
+  	    
+  	    <Button android:id="@+id/exit_button"
+  	        android:text="@string/exit"
+            android:layout_weight=".49"
+        	style="@style/TabBar_Items" />
+        
+        <LinearLayout style="@style/TabBar_ItemSeparator" />
+  	    
+  	    <Button android:id="@+id/add_button"
+  	        android:text="@string/menu_insert"
+            android:layout_weight=".49"
+        	style="@style/TabBar_Items" />
+  	    
+  	</LinearLayout>
+  	    
+</RelativeLayout>

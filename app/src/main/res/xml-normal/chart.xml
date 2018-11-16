@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ai:chart
+	xmlns:ai="http://www.artfulbits.com/android/aiCharts">
+	<ai:area grid="@drawable/fff_background"
+		background="#000"
+
+		name="graph">
+		<area.xaxis
+			scale_min="0"
+			scale_max="60"
+			scale_interval="10"
+			color="#888"
+			grid_linescolor="#111"
+			position="Bottom" />
+		<area.yaxis
+			scale_min="-5000"
+			scale_max="60000"
+			scale_interval="10000"
+			color="#888"
+			grid_linescolor="#111"
+			position="Left" />
+	</ai:area>
+	<ai:series type="Point"
+		name="data1"
+		color="#000"/>
+	<ai:series type="Point"
+		name="data2"
+		color="#F00" />
+</ai:chart>

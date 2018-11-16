@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <LinearLayout android:id="@+id/maintop_frame"
+        android:layout_alignParentTop="true"
+        style="@style/TabBar">
+            
+        <Button android:id="@+id/connection_manager"
+        	android:text="@string/connect_manager"
+        	android:layout_weight=".49"
+        	style="@style/TabBar_Items" />
+       
+		<LinearLayout style="@style/TabBar_ItemSeparator" />
+              	
+        <FrameLayout android:id="@+id/analysis_method"
+        	android:layout_weight=".49"
+        	style="@style/TabBar_Items">
+        	
+            <Spinner android:id="@+id/method_spinner"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="40dp"
+                android:background="@null"
+                android:prompt="@string/methods_list" />
+            
+            <TextView style="@style/TabBar_Items"
+                android:id="@+id/settings_manager_title"
+                android:text="@string/settings_manager"
+                android:background="#FFebebeb"/>
+            
+        </FrameLayout>
+        
+    </LinearLayout>
+    
+    <LinearLayout android:id="@+id/dynamicdata_bar"
+		style="@style/DynamicData_Bar">
+        
+        <TextView android:id="@+id/process_parameters"
+            android:gravity="center_horizontal"
+            style="@style/DynamicData_Text" />
+        
+    </LinearLayout>
+    
+    <FrameLayout android:id="@+id/data_controls"
+        style="@style/DataControls_Section">
+        
+        <LinearLayout android:id="@+id/datacontrols_bg"
+            style="@style/DataControls_Background"/>
+    
+		<LinearLayout android:id="@+id/datacontrols_buttons"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:layout_gravity="center"
+			android:gravity="center"
+        	android:paddingTop="10dp">
+		    
+		    <Button android:id="@+id/start_analysis_button"
+		        android:text="@string/start_analysis"
+		        style="@style/Button_DataControls" />
+		    
+		</LinearLayout>
+	
+	</FrameLayout>
+	
+	<LinearLayout android:id="@+id/data_grid"
+		style="@style/DataGrid_SingleReading">
+	    
+	    <TextView android:id="@+id/return_data"
+	        style="@style/DataGrid_Table_large" />
+	    
+	</LinearLayout>
+
+	<RelativeLayout android:id="@+id/measurement_settings"
+		style="@style/MeasurementSettings">
+
+		<TextView android:id="@+id/measurement_heading"
+			android:textStyle="bold"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentTop="true"
+			android:layout_alignParentLeft="true"
+			android:textColor="#CDC"
+			android:text="@string/measure" />
+
+		<RadioGroup android:id="@+id/measurement_buttons"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_below="@id/measurement_heading"
+			android:layout_alignParentLeft="true"
+			android:orientation="horizontal" >
+
+			<RadioButton android:id="@+id/open_circuit"
+				android:text="@string/vopen"
+				android:textColor="#CDC"
+				android:checked="true"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:onClick="onRadioButtonClicked" />
+
+			<RadioButton android:id="@+id/biased_current"
+				android:text="@string/ibiased"
+				android:textColor="#CDC"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:onClick="onRadioButtonClicked" />
+
+			<RadioButton android:id="@+id/resistance"
+				android:text="@string/resistor"
+				android:textColor="#CDC"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:onClick="onRadioButtonClicked" />
+
+			<RadioButton android:id="@+id/capacitance"
+				android:text="@string/capacitor"
+				android:textColor="#CDC"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:onClick="onRadioButtonClicked" />
+
+		</RadioGroup>
+
+		<TextView android:id="@+id/e_config"
+			android:textStyle="bold"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_below="@id/measurement_buttons"
+			android:layout_alignParentLeft="true"
+			android:textColor="#CDC"
+			android:text="@string/electrode_config" />
+
+		<RadioGroup android:id="@+id/e_config_buttons"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_below="@id/e_config"
+			android:layout_alignParentLeft="true"
+			android:orientation="horizontal" >
+
+			<RadioButton android:id="@+id/two_electrode"
+				android:text="@string/two_electrode"
+				android:textColor="#CDC"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:onClick="onRadioButtonClicked" />
+
+			<RadioButton android:id="@+id/three_electrode"
+				android:text="@string/three_electrode"
+				android:textColor="#CDC"
+				android:checked="true"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:onClick="onRadioButtonClicked" />
+
+		</RadioGroup>
+
+		<TextView android:id="@+id/bias_voltage"
+			android:textStyle="bold"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_below="@id/e_config_buttons"
+			android:layout_alignParentLeft="true"
+			android:textColor="#CDC"
+			android:text="@string/bias_voltage" />
+
+		<EditText android:id="@+id/bias_value"
+			android:inputType="numberSigned"
+			android:layout_below="@id/e_config_buttons"
+			android:layout_alignParentRight="true"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="10dp"  />
+
+		<SeekBar
+			android:id="@+id/bias_slider"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_alignParentLeft="true"
+			android:layout_below="@id/bias_voltage"
+			android:layout_margin="10dp"
+			android:progress="0"
+			android:padding="5dp" />
+
+	</RelativeLayout>
+    
+    <LinearLayout android:id="@+id/main_bottom_button_cluster"
+        android:layout_alignParentBottom="true"
+        style="@style/TabBar">
+        
+        <Button android:id="@+id/options_button"
+            android:text="@string/choices"
+        	style="@style/TabBar_Items" />
+    
+    </LinearLayout>
+    
+</RelativeLayout>
+

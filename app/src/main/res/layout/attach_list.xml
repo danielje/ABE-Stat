@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#FFF"
+    android:id="@+id/linear_layout01"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+  	<LinearLayout android:id="@+id/bottom_viewbutton_cluster"
+        android:layout_alignParentBottom="true"
+        style="@style/TabBar">
+          	    
+  	    <Button android:id="@+id/share_options_button"
+  	        android:layout_weight=".49"
+  	        android:text="@string/choices"
+  	        style="@style/TabBar_Items" />
+  	
+  	</LinearLayout>
+  	
+  	<TextView android:id="@+id/files_heading"
+  	    android:textColor="#000"
+  	    android:textStyle="bold"
+  	    android:layout_alignParentTop="true"
+  	    android:layout_width="fill_parent"
+  	    android:layout_height="wrap_content"
+  	    android:text="@string/files_heading" />
+  	
+  	<ListView android:id="@+id/android:list"
+        android:textColor="#123"
+        android:cacheColorHint="#fff"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/files_heading"
+        android:layout_above="@id/bottom_viewbutton_cluster"
+        android:choiceMode="multipleChoice" />
+  	
+  	<TextView android:id="@+id/android:empty"
+  	    android:textColor="#123"
+  	    android:layout_width="fill_parent"
+  	    android:layout_height="wrap_content"
+  	    android:text="@string/no_methods" />
+  	    
+</RelativeLayout>

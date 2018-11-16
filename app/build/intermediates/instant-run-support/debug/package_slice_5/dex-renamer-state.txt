@@ -1,0 +1,4 @@
+#Fri Sep 21 19:18:41 HST 2018
+base.0=C\:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\82
+path.0=classes.dex
+renamed.0=classes.dex

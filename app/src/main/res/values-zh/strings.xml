@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+
+    <!--  ABE-Stat Activity Title and Buttons -->
+    <string name="app_name">ABE-Stat</string>
+    <string name="app_name_class">ABE-Stat</string>
+    <string name="connect_manager">连接菜单</string>
+    <string name="start_analysis">开始分析</string>
+    <string name="dataviewheading">保存的数据：%1$s，%2$s</string>
+
+    <string name="measure">测量选项</string>
+    <string name="electrode_config">电极配置</string>
+    <string name="vopen">电位（mV）</string>
+    <string name="ibiased">I (nA)</string>
+    <string name="resistor">R (Ω)</string>
+    <string name="capacitor">C (pF)</string>
+    <string name="three_electrode">3电极</string>
+    <string name="two_electrode">2电极</string>
+    <string name="bias_voltage">偏置电压 (mV)</string>
+    
+    <!--  Bluetooth -->
+    <string name="send">发送</string>
+    <string name="view">标绘</string>
+    <string name="not_connected">您没有连接到设备</string>
+    <string name="bt_not_enabled_leaving">蓝牙未启用。离开ABEStat</string>
+    <string name="title_connecting">连接中...</string>
+    <string name="title_connected_to">已连接：</string>
+    <string name="title_not_connected">未连接</string>
+    <string name="unrecoverable_break">设备无反应，远程复位...</string>
+    <string name="restoring_connection">正在尝试恢复连接...</string>
+
+    <!-- Default Method Strings -->
+    <string name="default_cv">默认循环伏安法</string>
+    <string name="default_eis">默认电化学阻抗谱</string>
+    <string name="default_dpv">默认微分脉冲伏安法</string>
+    <string name="default_asv">默认阳极溶出伏安法</string>
+
+    <!--  DeviceListActivity -->
+    <string name="scanning">正在扫描设备...</string>
+    <string name="select_device">选择一个设备进行连接</string>
+    <string name="none_paired">尚未配对任何设备</string>
+    <string name="none_found">未发现设备</string>
+    <string name="title_paired_devices">配对的设备</string>
+    <string name="title_other_devices">其他可用设备</string>
+    <string name="button_scan">扫描设备</string>
+    <string name="cancel">取消</string>
+    <string name="disconnect">断开</string>
+
+    <!-- Options Menu -->
+    <string name="share_data">共享数据</string>
+    <string name="choices">选项</string>
+    <string name="connect">连接菜单</string>
+    <string name="analysis">编辑方法</string>
+    <string name="shutdown">远程关机</string>
+    
+    <!-- Database edit fields for updating real time LAMP method -->
+    <string name="no_methods">尚无方法</string>
+    <string name="methods_list">选择分析方法</string>
+    <string name="settings_manager">分析方法</string>
+    <string name="menu_insert">添加新方法</string>
+    <string name="menu_delete">删除方法</string>
+
+    <string name="eis_start_frequency">起始频率（Hz）</string>
+    <string name="eis_end_frequency">结束频率（Hz）</string>
+    <!--<string name="eis_interval_frequency"></string> -->
+    <string name="eis_bias_voltage">DC偏置电压（V）</string>
+    <string name="start_voltage">起始电压（V）</string>
+    <string name="end_voltage">结束电压（V）</string>
+    <string name="scan_rate">扫描速率 (V/s)</string>
+    <string name="scan_number">周期数</string>
+    <string name="step_frequency">步进频率（Hz）</string>
+    <string name="step_e">跨步电压（mV）</string>
+    <string name="pulse_amplitude">脉冲幅度（mV）</string>
+    <string name="electrode_configuration">电极配置</string>
+    <string name="open_circuit_config">开路配置</string>
+    <string name="two_electrode_configuration">2电极配置</string>
+    <string name="three_electrode_configuration">3电极配置</string>
+    <string name="equilibrium_time">平衡时间 (s)</string>
+    <string name="method_name">方法名称</string>
+    <string name="confirm">确认</string>
+    <string name="infinite">无穷</string>
+    <string name="methods_heading">定义的方法（点击编辑，长按则可删除）：</string>
+    <string name="method_default">方法</string>
+    <string name="exit">退出…</string>
+    <string name="lazy_method">新设置不会产生任何作用 - 改变不会被保存！</string>
+    
+    <!-- Real_Time_Activity Strings -->
+    <string name="spectrum">光谱</string>
+    <string name="gray">灰度</string>
+    <string name="quit">放弃</string>
+    <string name="save_data">保存数据</string>
+    <string name="data_select">图表数据选择：</string>
+    <string name="impedance">|Z| (Ω)</string>
+    <string name="zreal">Zreal (Ω)</string>
+    <string name="zimag">-Zimag (Ω)</string>
+    <string name="phi">φ (°)</string>
+    <string name="potential">E (V)</string>
+    <string name="current">电流（nA）</string>
+    <string name="frequency">频率（Hz）</string>
+    <string name="log_f">log(f) / Hz</string>
+    <string name="log_z">log|Z| / Ω</string>
+    <string name="chart_data">图表数据：</string>
+    <string name="quit_query">您确定要退出实时分析？</string>
+    <string name="exit_query">您确定要退出数据浏览器？</string>
+    <string name="cal_query">您确定要覆盖校准数据？</string>
+    <string name="batt_query">您确定电池已充满电？</string>
+    <string name="ctrl_query">您确定要输入新的设定点？</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="data_labels">标签样本</string>
+    <string name="ext_not_available">警告：外部数据存储不可用于数据写入！</string>
+    <string name="not_heating">设备未按照预期加热 - 加热器关闭！检查传感器和加热器...</string>
+    <string name="too_hot">设备超过安全工作温度 - 加热器关闭！</string>
+    <string name="file_not_written">外部存储目前无法写入 - 数据未保存...</string>
+    <string name="file_save_not_checked">数据未保存</string>
+    <string name="files_not_read">外部存储不可用，或者数据目录尚不存在...</string>
+    <string name="no_bluetooth_device">此Android设备不具备蓝牙...</string>
+    <string name="bluetooth_not_on">蓝牙当前未启用...</string>
+    <string name="insufficient_battery">电池不足...</string>
+    
+    <!-- AttachActivity and Data_View_Activity Strings -->
+    <string name="files_heading">可用于共享的ABEStat文件：</string>
+    <string name="file_sharing">文件共享</string>
+    <string name="back_to_main">返回主菜单</string>
+    <string name="file_corrupted">文件崩溃-无法解析数据！</string>
+
+    <!-- Available Methodology Strings -->
+    <string name="cyclic_voltammetry">循环伏安法 (CV)</string>
+    <string name="electrochemical_impedance_spectroscopy">电化学阻抗谱 (EIS)</string>
+    <string name="anodic_stripping_voltammetry">阳极溶出伏安法（ASV）</string>
+    <string name="differential_pulse_voltammetry">微分脉冲伏安法 (DPV)</string>
+
+    <!-- string for reporting back device temperature during temperature calibration -->
+    <string name="reported_temperature">当前温度：%1$.2f℃</string>
+
+    <string name="analysis_complete">%1$s分析完成！</string>
+    <string name="equilibration_time_remaining">%1$s %2$d s平衡</string>
+
+    <string name="signal_amplitude">信号幅度（峰到峰）</string>
+    <string name="amplitude0">20mV</string>
+    <string name="amplitude1">40mV</string>
+    <string name="amplitude2">100mV</string>
+    <string name="amplitude3">200mV</string>
+    
+    <!-- formatted string for reporting back temperature standards stored in ABE EEPROM -->
+    <string name="temp_standards">现有校准点在 %1$.1f°C 及 %2$.1f°C，MSTemp- %3$.1f°C</string>
+    
+    <!-- string for reporting RFU value and saturation code in calibration activity -->
+    <string name="cal_report">报告：未加工的RFU读数%1$d，饱和代码%2$d</string>
+    
+    <!-- string for reporting RFU value and saturation code in calibration activity -->
+    <string name="scaled_rfu_report">已标度的RFU：%1$d</string>
+
+    <string name="axis_settings">轴设置</string>
+    <string name="linearplot">线性</string>
+    <string name="logplot">Log</string>
+    <string name="nyquist">奈奎斯特</string>
+
+    <!-- string for reporting RFU value and saturation code in calibration activity -->
+    <string name="rt_device_method">设备%1$s</string>
+    <string name="rt_device_disconnected">设备%1$s\n已完成：%2$s（已断开）</string>
+    <string name="rt_device_lost">设备%1$s连接丢失\n%2$s未完成...</string>
+    
+    <!-- String to send to toast when user enters process parameters outside of valid range -->
+    <string name="outside_range_toast">%1$s必须介于%2$d和%3$d之间...</string>
+    
+    <!-- FileName String -->
+    <string name="file_name_string">%1$s__%2$s-%3$s-%4$s %5$s_%6$s_%7$s.csv</string>
+    <string name="date_string">%1$s/%2$s/%3$s %4$s:%5$s:%6$s</string>
+
+    <string name="vopen_report">开路电位：%1$s mV\n设备温度：%2$.2f\u00B0C下\n热电偶温度：%3$s</string>
+    <string name="resistor_report">电池直流电阻：%1$s Ω\n设备温度：%2$.2f\u00B0C\n热电偶温度：%3$s</string>
+    <string name="capacitor_report">电池电容：%1$s pF（相位%2$s°）\n设备温度：%3$.2f\u00B0C\n热电偶温度：%4$s</string>
+    <string name="current_report">电池电流：%1$s nA，%2$s mV 偏压\n设备温度：%3$.2f\u00B0C\n热电偶温度：%4$s</string>
+    <string name="degrees_c">\u00B0C</string>
+
+    <string name="eis_report">f %1$s Hz\n|Z| %2$sΩ\nφ %3$s\u00B0</string>
+    <string name="cv_report">E(V): %1$s\nI(nA): %2$s</string>
+    <string name="temperature_report">设备温度：%1$.2f\u00B0C\n热电偶温度：%2$s</string>
+    <string name="battery_report">电池：%1$d％</string>
+
+    <!-- Method Summary formatting strings -->
+    <!---<string name="cv_method_string">&lt;b>%1$s (CV):&lt;/b>&lt;br/>%2$s V to %3$s V, %4$s V/s&lt;br/>%5$s s Equilibration, %6$s cycles&lt;br/>%7$s</string>
+    <string name="dpv_method_string">&lt;b>%1$s (DPV):&lt;/b>&lt;br/>%2$s V to %3$s V&lt;br/>%4$sHz %5$smV step %6$smV pulse&lt;br/>%7$s s Equilibration, %8$s cycles&lt;br/>%9$s</string>
+    <string name="eis_method_string">&lt;b>%1$s (EIS):&lt;/b>&lt;br/>%2$s Hz to %3$s Hz, \u0394%4$s Hz %5$s&lt;br/>%6$s s Equilibration at %7$s V bias&lt;br/>%8$s</string> -->
+
+    <string name="cv_method_string">%1$s (CV):\n%2$s V 到 %3$s V, %4$s V/s\n%5$s s平衡, %6$s 周期\n%7$s</string>
+    <string name="dpv_method_string">%1$s (DPV):\n%2$s V 到 %3$s V\n%4$sHz %5$smV 阶跃 %6$smV 脉冲\n%7$s s 平衡, %8$s 周期\n%9$s</string>
+    <!--<string name="eis_method_string">%1$s (EIS):\n%2$s Hz 到 %3$s Hz, Δ%4$s Hz %5$s\n%6$s s 平衡， %7$s V 偏压\n%8$s</string>-->
+
+    <!-- Titles -->
+    <string name="new_method">分析设置</string>
+
+    <!-- New and orphaned strings translated September 2018 -->
+    <string name="analyzing">%1$s分析中…</string>
+    <string name="time_heading">时间（分钟）</string>
+    <string name="open_circuit">开路</string>
+    <string name="delete">删除文件</string>
+    <string name="delete_dialog">您确定要删除所选文件吗？</string>
+    <string name="default_slo">默认静态录制</string>
+    <string name="no_data_to_view">请选择要查看的数据</string>
+    <string name="too_much_data_to_view">请只选择一个要查看的数据文件</string>
+    <string name="no_data_to_share">请选择要共享的文件</string>
+    <string name="no_files_to_delete">请选择要删除的文件</string>
+    <string name="eis_interval_frequency">每个频率十年的样本</string>
+    <string name="applied_potential">应用潜力（V）</string>
+    <string name="log_duration">记录持续时间（分钟）</string>
+    <string name="temperature">温度（°C）</string>
+    <string name="static_logging">静态录音</string>
+    <string name="eis_method_string">%1$s（EIS）：\n%2$s  Hz到%3$s Hz, %4$s样本/十年%5$s峰值\n在%7$s伏特偏压下的%6$s秒平衡\n%8$s</string>
+    <string name="applied_potential_string">%1$s伏特</string>
+    <string name="record_duration_string">%1$s分钟</string>
+    <string name="open_ended_duration">开放式的</string>
+    <string name="static_record_string">%1$s (静态录音):\n%2$s s 平衡时间\n记录持续时间 %3$s\n%4$s %5$s</string>
+</resources>

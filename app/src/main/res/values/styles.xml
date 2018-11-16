@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- SHARED STYLES -->
+    <style name="dart_theme" parent="android:Theme">
+        <item name="android:windowBackground">@drawable/bg_mainrepeat</item>
+        <item name="android:windowTitleBackgroundStyle">@android:color/black</item>
+    </style>
+    <style name="TitleBar_Text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:textStyle">normal</item>
+		<item name="android:singleLine">true</item>
+		<item name="android:ellipsize">end</item>
+    </style>
+    <style name="TabBar">
+        <item name="android:background">#FFebebeb</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="TabBar_Items">
+        <item name="android:background">@drawable/button_tabs</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FF2d2d28</item>
+    </style>
+    <style name="TabBar_ItemSeparator">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">35dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">#FFD3D3D3</item>
+    </style>
+    
+    <!-- MAIN VIEW -->
+    <style name="DynamicData_Bar">
+        <item name="android:background">#FF2D2D28</item>
+        <item name="android:layout_below">@id/maintop_frame</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="DynamicData_Text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#FF84d2e6</item>
+        <item name="android:maxLines">5</item>
+    <!--  <item name="android:singleLine">true</item>-->
+    </style>
+    <style name="DataControls_Section">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@id/dynamicdata_bar</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="DataControls_Background">
+        <item name="android:background">@drawable/bg_shadowrepeat</item>
+        <item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">8dp</item>
+    </style>
+    <style name="Button_DataControls">
+        <item name="android:background">@drawable/button_controls</item>
+        <item name="android:layout_width">wrap_content</item>
+	    <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+	    <item name="android:layout_margin">3dp</item>
+	    <item name="android:textSize">12dp</item>
+        <item name="android:textColor">#FF2d2d28</item>
+	    <item name="android:textStyle">bold</item>
+	    <item name="android:shadowColor">#e7e7e7</item>
+	    <item name="android:shadowDx">1</item>
+	    <item name="android:shadowDy">1</item>
+	    <item name="android:shadowRadius">0</item>
+    </style>
+    <style name="DataGrid_SingleReading">
+        <item name="android:layout_below">@id/data_controls</item>
+        <item name="android:layout_above">@id/measurement_settings</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+    </style>
+    <style name="DataGrid_Table_xlarge">
+        <item name="android:background">#FFF</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_marginLeft">7dp</item>
+        <item name="android:layout_marginRight">7dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">18dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingBottom">18dp</item>
+        <item name="android:textColor">#FF2d2d28</item>
+	    <item name="android:textSize">14dp</item>
+	    <item name="android:lineSpacingExtra">1sp</item>
+        <item name="android:maxLines">10</item>
+    </style>
+    <style name="DataGrid_Table_large">
+        <item name="android:background">#FFF</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_marginLeft">7dp</item>
+        <item name="android:layout_marginRight">7dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">18dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingBottom">18dp</item>
+        <item name="android:textColor">#FF2d2d28</item>
+	    <item name="android:textSize">14dp</item>
+	    <item name="android:lineSpacingExtra">1sp</item>
+        <item name="android:maxLines">10</item>
+    </style>
+    <style name="DataGrid_Table_normal">
+        <item name="android:background">#FFF</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_marginLeft">7dp</item>
+        <item name="android:layout_marginRight">7dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">18dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingBottom">18dp</item>
+        <item name="android:textColor">#FF2d2d28</item>
+	    <item name="android:textSize">14dp</item>
+	    <item name="android:lineSpacingExtra">1sp</item>
+        <item name="android:maxLines">10</item>
+    </style>
+    <style name="DataGrid_Table_small">
+        <item name="android:background">#FFF</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_marginLeft">7dp</item>
+        <item name="android:layout_marginRight">7dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">18dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingBottom">18dp</item>
+        <item name="android:textColor">#FF2d2d28</item>
+	    <item name="android:textSize">14dp</item>
+	    <item name="android:lineSpacingExtra">1sp</item>
+        <item name="android:maxLines">10</item>
+    </style>
+    <style name="MeasurementSettings">
+        <item name="android:layout_above">@id/main_bottom_button_cluster</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+    </style>
+    
+    <!-- CALIBRATION VIEW -->
+    
+    <!-- DATA LABELING VIEW -->
+    <style name="View_Heading">
+        <item name="android:background">#FF2d2d28</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FF84d2e6</item>
+    </style>
+    
+    <style name="Sample_Heading">
+        <!--<item name="android:layout_below">@id/sample_label_heading</item>-->
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#BBBBBB</item>
+        <item name="android:layout_alignParentLeft">true</item>
+    </style>
+    
+    <!-- ADD NEW METHOD VIEW -->
+    <style name="Input_Label">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#FF2d2d28</item>
+        <item name="android:layout_marginBottom">5dp</item>
+    </style>
+    
+    <style name="Input_Field">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+    
+    <!-- REAL TIME LAMP VIEW -->
+    <style name="Well_Checkbox">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:checked">true</item>
+        <item name="android:textColor">#FF888888</item>        
+    </style>
+    
+</resources>

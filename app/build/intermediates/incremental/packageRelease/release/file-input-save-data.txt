@@ -1,0 +1,11 @@
+#Internal package file, do not edit.
+#Fri Sep 21 19:37:33 HST 2018
+1.base=C\:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\transforms\\dex\\release\\0
+0.baseType=DIRECTORY
+1.baseType=DIRECTORY
+count=2
+1.set=DEX
+0.path=license.lic
+0.set=ASSET
+0.base=C\:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\assets\\release
+1.path=classes.dex

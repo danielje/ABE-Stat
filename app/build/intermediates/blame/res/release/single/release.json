@@ -1,0 +1,346 @@
+[
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\xml-xlarge_provider_paths.xml.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\xml-xlarge\\provider_paths.xml"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\layout-xlarge_realtime.xml.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\layout-xlarge\\realtime.xml"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_app_icon.png.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\drawable-xhdpi\\app_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_arrow_up.png.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\drawable-hdpi\\arrow_up.png"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_map_mark.png.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\drawable-xhdpi\\map_mark.png"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\drawable_red_marker.png.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\drawable\\red_marker.png"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_app_icon.png.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\drawable-hdpi\\app_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_arrow_up.png.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\drawable-xhdpi\\arrow_up.png"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\drawable_yellow_marker.png.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\drawable\\yellow_marker.png"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\drawable_logo_light_normal.png.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\drawable\\logo_light_normal.png"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\drawable_bg_datatable_large.xml.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\drawable\\bg_datatable_large.xml"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_camera_activity.png.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\drawable-mdpi\\camera_activity.png"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\layout_file_row.xml.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\layout\\file_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\drawable_logo_light_large.png.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\drawable\\logo_light_large.png"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\drawable_logo_light_small.png.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\drawable\\logo_light_small.png"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\xml-small_chart.xml.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\xml-small\\chart.xml"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\drawable_logo_light_xlarge.png.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\drawable\\logo_light_xlarge.png"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_checkbox_off_background.png.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\drawable-mdpi\\checkbox_off_background.png"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi_arrow_down.png.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\drawable-ldpi\\arrow_down.png"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\drawable_bg_titlebar.png.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\drawable\\bg_titlebar.png"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi_logo_light.png.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\drawable-ldpi\\logo_light.png"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\drawable_bg_datatable.xml.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\drawable\\bg_datatable.xml"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\layout_message.xml.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\layout\\message.xml"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\drawable_bg_shadowrepeat.xml.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\drawable\\bg_shadowrepeat.xml"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\xml-xlarge_chart.xml.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\xml-xlarge\\chart.xml"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\drawable_shadow_databar.png.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\drawable\\shadow_databar.png"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\layout-small_dataview.xml.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\layout-small\\dataview.xml"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\layout_method_edit.xml.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\layout\\method_edit.xml"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\drawable_logo_light.png.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\drawable\\logo_light.png"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\layout-xlarge_main.xml.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\layout-xlarge\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\layout-large_dataview.xml.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\layout-large\\dataview.xml"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\drawable_bg_datatable_xlarge.xml.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\drawable\\bg_datatable_xlarge.xml"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\layout-small_main.xml.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\layout-small\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\xml-normal_provider_paths.xml.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\xml-normal\\provider_paths.xml"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\drawable_bg_titlebarrepeat.xml.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\drawable\\bg_titlebarrepeat.xml"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi_map_mark.png.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\drawable-ldpi\\map_mark.png"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\drawable_green_marker.png.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\drawable\\green_marker.png"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\layout-large_realtime.xml.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\layout-large\\realtime.xml"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi_camera_activity.png.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\drawable-ldpi\\camera_activity.png"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi_arrow_up.png.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\drawable-ldpi\\arrow_up.png"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\layout_methods_list.xml.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\layout\\methods_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_checkbox_on_background.png.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\drawable-mdpi\\checkbox_on_background.png"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\menu_option_menu.xml.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\menu\\option_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_camera_activity.png.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\drawable-hdpi\\camera_activity.png"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_checkbox_off_background_focus_yellow.png.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\drawable-mdpi\\checkbox_off_background_focus_yellow.png"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_map_mark.png.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\drawable-mdpi\\map_mark.png"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_app_icon.png.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\drawable-mdpi\\app_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\drawable_button_controls.xml.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\drawable\\button_controls.xml"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\layout-large_main.xml.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\layout-large\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_arrow_up.png.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\drawable-mdpi\\arrow_up.png"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi_app_icon.png.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\drawable-ldpi\\app_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\drawable_fff_background.png.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\drawable\\fff_background.png"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_arrow_down.png.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\drawable-mdpi\\arrow_down.png"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\drawable_button_tabs.xml.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\drawable\\button_tabs.xml"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_checkbox_on_background_focus_yellow.png.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\drawable-mdpi\\checkbox_on_background_focus_yellow.png"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_arrow_down.png.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\drawable-xhdpi\\arrow_down.png"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\drawable_camera_activity.png.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\drawable\\camera_activity.png"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\xml-large_chart.xml.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\xml-large\\chart.xml"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\drawable_bg_datatable_small.xml.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\drawable\\bg_datatable_small.xml"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_logo_light.png.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\drawable-mdpi\\logo_light.png"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\layout_device_list.xml.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\layout\\device_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\layout_device_name.xml.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\layout\\device_name.xml"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\xml-normal_chart.xml.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\xml-normal\\chart.xml"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\drawable_bg_datatable_normal.xml.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\drawable\\bg_datatable_normal.xml"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_logo_light.png.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\drawable-hdpi\\logo_light.png"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_diagenetix.png.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\drawable-hdpi\\diagenetix.png"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_arrow_down.png.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\drawable-hdpi\\arrow_down.png"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_camera_activity.png.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\drawable-xhdpi\\camera_activity.png"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\menu_share_options_menu.xml.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\menu\\share_options_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\drawable_purple_marker.png.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\drawable\\purple_marker.png"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\drawable_bg_mainrepeat.xml.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\drawable\\bg_mainrepeat.xml"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\layout-small_realtime.xml.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\layout-small\\realtime.xml"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\layout_file_row_checkbox.xml.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\layout\\file_row_checkbox.xml"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\xml-small_provider_paths.xml.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\xml-small\\provider_paths.xml"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\layout_attach_list.xml.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\layout\\attach_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\layout-xlarge_dataview.xml.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\layout-xlarge\\dataview.xml"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\layout-normal_main.xml.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\layout-normal\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\layout_methods_row.xml.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\layout\\methods_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\xml-large_provider_paths.xml.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\xml-large\\provider_paths.xml"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\layout-normal_dataview.xml.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\layout-normal\\dataview.xml"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\drawable_bg_main.png.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\drawable\\bg_main.png"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\drawable_black_marker.png.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\drawable\\black_marker.png"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\layout_custom_title.xml.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\layout\\custom_title.xml"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\layout-normal_realtime.xml.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\layout-normal\\realtime.xml"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi_checkbox.xml.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\drawable-mdpi\\checkbox.xml"
+    },
+    {
+        "merged": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi_map_mark.png.flat",
+        "source": "C:\\Users\\danie\\Documents\\Jenkins\\StudioProjects\\ABE-Stat\\app\\src\\main\\res\\drawable-hdpi\\map_mark.png"
+    }
+]

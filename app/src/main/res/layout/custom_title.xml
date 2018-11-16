@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_titlebarrepeat">
+  
+  <TextView android:id="@+id/title_left_text"
+      android:layout_alignParentLeft="true"
+      android:paddingLeft="5dp"
+      style="@style/TitleBar_Text"/>
+  
+  <TextView android:id="@+id/title_right_text"
+      android:layout_alignParentRight="true"
+      android:paddingRight="5dp"
+      style="@style/TitleBar_Text"/>
+  
+</RelativeLayout>

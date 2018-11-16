@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\danie\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\1f24fe7acdac2bfae2281306a24a37f7\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="C:\Users\danie\Documents\Jenkins\StudioProjects\ABE-Stat\app\build\intermediates\transforms\preDex\release\6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\danie\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\f33ba07eb4330c5dd250241668113bbc\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="C:\Users\danie\Documents\Jenkins\StudioProjects\ABE-Stat\app\build\intermediates\transforms\preDex\release\7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\danie\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\65e06dcfd0a65db86a87c161d9f84542\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="C:\Users\danie\Documents\Jenkins\StudioProjects\ABE-Stat\app\build\intermediates\transforms\preDex\release\5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\danie\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\b3792eb586f7b3e4411be29cbb12a087\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="C:\Users\danie\Documents\Jenkins\StudioProjects\ABE-Stat\app\build\intermediates\transforms\preDex\release\4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\danie\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\b762ab31655a731d529fd75d6ad1cd06\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="C:\Users\danie\Documents\Jenkins\StudioProjects\ABE-Stat\app\build\intermediates\transforms\preDex\release\8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\danie\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="C:\Users\danie\Documents\Jenkins\StudioProjects\ABE-Stat\app\build\intermediates\transforms\preDex\release\9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\danie\.gradle\caches\transforms-1\files-1.1\support-v13-25.3.1.aar\a4edd576e1de99863a43c4442e2e37f5\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8531f2d46b35de75e6130f25830e0c2c0d6bb98c">
+        <dex dex="C:\Users\danie\Documents\Jenkins\StudioProjects\ABE-Stat\app\build\intermediates\transforms\preDex\release\2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\danie\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\d8db75b4b917e5027886ef9d1022a1bb\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\danie\Documents\Jenkins\StudioProjects\ABE-Stat\app\build\intermediates\transforms\preDex\release\3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\danie\Documents\Jenkins\StudioProjects\ABE-Stat\app\libs\com.artfulbits.aiCharts.jar"
+        jumboMode="false"
+        min-sdk-version="15"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b752bfff34629c44eeb836a5d30bef8a6a4fe899">
+        <dex dex="C:\Users\danie\Documents\Jenkins\StudioProjects\ABE-Stat\app\build\intermediates\transforms\preDex\release\1.jar" />
+    </item>
+
+</items>

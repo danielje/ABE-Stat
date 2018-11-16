@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/email_files"
+          android:icon="@android:drawable/ic_menu_search"
+          android:title="@string/send" />
+    <item android:id="@+id/open_file"
+          android:icon="@android:drawable/ic_menu_search"
+          android:title="@string/view" />
+    <item android:id="@+id/delete"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="@string/delete" />
+    <item android:id="@+id/return_to_main"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="@string/back_to_main" />
+</menu>

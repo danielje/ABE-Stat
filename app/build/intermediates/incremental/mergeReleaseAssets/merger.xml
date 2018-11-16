@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="C:\Users\danie\Documents\Jenkins\StudioProjects\ABE-Stat\app\src\main\assets"><file name="license.lic" path="C:\Users\danie\Documents\Jenkins\StudioProjects\ABE-Stat\app\src\main\assets\license.lic"/></source><source path="C:\Users\danie\Documents\Jenkins\StudioProjects\ABE-Stat\app\build\generated\assets\shaders\release"/></dataSet><dataSet config="release"><source path="C:\Users\danie\Documents\Jenkins\StudioProjects\ABE-Stat\app\src\release\assets"/></dataSet></merger>

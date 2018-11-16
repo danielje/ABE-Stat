@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+
+    <!--  ABE-Stat Activity Title and Buttons -->
+    <string name="app_name">ABE-Stat</string>
+    <string name="app_name_class">ABE-Stat</string>
+    <string name="connect_manager">接続メニュー</string>
+    <string name="start_analysis">分析を開始する</string>
+    <string name="dataviewheading">保存データ：%1$s、%2$s</string>
+
+    <string name="measure">測定オプション</string>
+    <string name="electrode_config">電極配置</string>
+    <string name="vopen">ポテンシャル (mV)</string>
+    <string name="ibiased">I (nA)</string>
+    <string name="resistor">R (Ω)</string>
+    <string name="capacitor">C (pF)</string>
+    <string name="three_electrode">3電極</string>
+    <string name="two_electrode">2電極</string>
+    <string name="bias_voltage">バイアス電圧 (mV)</string>
+    
+    <!--  Bluetooth -->
+    <string name="send">送信する</string>
+    <string name="view">プロット</string>
+    <string name="not_connected">デバイスに接続されていません</string>
+    <string name="bt_not_enabled_leaving">Bluetoothが無効化されています。ABEStatを終了します。</string>
+    <string name="title_connecting">接続しています...</string>
+    <string name="title_connected_to">接続されました：</string>
+    <string name="title_not_connected">接続されていません</string>
+    <string name="unrecoverable_break">デバイスからの応答がありません。遠隔リセットしています...</string>
+    <string name="restoring_connection">再接続を試みています...</string>
+
+    <!-- Default Method Strings -->
+    <string name="default_cv">サイクリック ボルタンメトリー</string>
+    <string name="default_eis">電気化学インピーダンス分光法</string>
+    <string name="default_dpv">微分パルスボルタンメトリー</string>
+    <string name="default_asv">陽極ストリッピングボルタンメトリー</string>
+
+    <!--  DeviceListActivity -->
+    <string name="scanning">デバイスをスキャンしています...</string>
+    <string name="select_device">接続したいデバイスを選択してください</string>
+    <string name="none_paired">デバイスが同期されていません</string>
+    <string name="none_found">デバイスが見つかりませんでした</string>
+    <string name="title_paired_devices">同期されているデバイス</string>
+    <string name="title_other_devices">その他の利用可能なデバイス</string>
+    <string name="button_scan">デバイスをスキャンしています</string>
+    <string name="cancel">キャンセル</string>
+    <string name="disconnect">切断しています</string>
+
+    <!-- Options Menu -->
+    <string name="share_data">データを共有する</string>
+    <string name="choices">オプション</string>
+    <string name="connect">接続メニュー</string>
+    <string name="analysis">編集方法</string>
+    <string name="shutdown">遠隔シャットダウン</string>
+    
+    <!-- Database edit fields for updating real time LAMP method -->
+    <string name="no_methods">メソッドが指定されていません</string>
+    <string name="methods_list">解析方法を選択する</string>
+    <string name="settings_manager">解析方法</string>
+    <string name="menu_insert">新しいメソッドを追加する</string>
+    <string name="menu_delete">メソッドを削除する</string>
+
+    <string name="eis_start_frequency">開始周波数 (Hz)</string>
+    <string name="eis_end_frequency">終了周波数 (Hz)</string>
+    <!--<string name="eis_interval_frequency"></string> -->
+    <string name="eis_bias_voltage">DCバイアス電圧 (V)</string>
+    <string name="start_voltage">開始時の電圧 (V)</string>
+    <string name="end_voltage">終了時の電圧 (V)</string>
+    <string name="scan_rate">スキャン速度 (V/s)</string>
+    <string name="scan_number">サイクル数</string>
+    <string name="step_frequency">周波数ステップ (Hz)</string>
+    <string name="step_e">ポテンシャルステップ (mV)</string>
+    <string name="pulse_amplitude">パルス振幅 (mV)</string>
+    <string name="electrode_configuration">電極配置</string>
+    <string name="open_circuit_config">開回路の構成</string>
+    <string name="two_electrode_configuration">2電極配置</string>
+    <string name="three_electrode_configuration">3電極配置</string>
+    <string name="equilibrium_time">平衡時間 (s)</string>
+    <string name="method_name">メソッド名</string>
+    <string name="confirm">認証する</string>
+    <string name="infinite">無限</string>
+    <string name="methods_heading">定義されたメソッド (クリックして編集、長押しして削除)：</string>
+    <string name="method_default">メソッド</string>
+    <string name="exit">終了する...</string>
+    <string name="lazy_method">新しい設定もしくは変更した項目が保存されていません！</string>
+    
+    <!-- Real_Time_Activity Strings -->
+    <string name="spectrum">スペクトラム</string>
+    <string name="gray">グレースケール</string>
+    <string name="quit">終了する</string>
+    <string name="save_data">データを保存する</string>
+    <string name="data_select">グラフデータを選択する：</string>
+    <string name="impedance">|Z| (Ω)</string>
+    <string name="zreal">Zreal (Ω)</string>
+    <string name="zimag">-Zimag (Ω)</string>
+    <string name="phi">φ (°)</string>
+    <string name="potential">E (V)</string>
+    <string name="current">電流 (nA)</string>
+    <string name="frequency">周波数 (Hz)</string>
+    <string name="log_f">log(f) / Hz</string>
+    <string name="log_z">log|Z| / Ω</string>
+    <string name="chart_data">チャートデータ：</string>
+    <string name="quit_query">本当にリアルタイム分析を終了してもよろしいですか？</string>
+    <string name="exit_query">本当にデータビューワーを終了してもよろしいですか？</string>
+    <string name="cal_query">本当にキャリブレーションデータを上書きしてもよろしいですか？</string>
+    <string name="batt_query">バッテリーが完全に充電されていることを確認しましたか？</string>
+    <string name="ctrl_query">新しいセットポイントを入力してもよろしいですか？</string>
+    <string name="yes">はい</string>
+    <string name="no">いいえ</string>
+    <string name="data_labels">ラベルのサンプル</string>
+    <string name="ext_not_available">警告：外部のデータストレージにデータを書き込めません！</string>
+    <string name="not_heating">デバイスが予想通りに加熱されていません - ヒーターがシャットダウンされました！センサーおよびヒーターをチェックしてください...</string>
+    <string name="too_hot">デバイスが、安全な動作温度の限界に達しました - ヒーターはシャットダウンされました！</string>
+    <string name="file_not_written">現在、外部ストレージに書き込むことができません - データは保存されませんでした...</string>
+    <string name="file_save_not_checked">データは保存されていません</string>
+    <string name="files_not_read">外部ストレージが利用不可である、もしくはデータ ディレクトリが存在していません...</string>
+    <string name="no_bluetooth_device">このAndroidデバイスには、Bluetoothが搭載されていません...</string>
+    <string name="bluetooth_not_on">現在Bluetoothを利用することはできません...</string>
+    <string name="insufficient_battery">バッテリーが不足しています...</string>
+    
+    <!-- AttachActivity and Data_View_Activity Strings -->
+    <string name="files_heading">ABEStatファイルを共有していただけます：</string>
+    <string name="file_sharing">ファイル共有</string>
+    <string name="back_to_main">メインに戻る</string>
+    <string name="file_corrupted">ファイルが破損しています - データを解析できませんでした！</string>
+
+    <!-- Available Methodology Strings -->
+    <string name="cyclic_voltammetry">サイクリック ボルタンメトリー (CV)</string>
+    <string name="electrochemical_impedance_spectroscopy">電気化学インピーダンス分光法 (EIS)</string>
+    <string name="anodic_stripping_voltammetry">陽極ストリッピングボルタンメトリー (ASV)</string>
+    <string name="differential_pulse_voltammetry">微分パルスボルタンメトリー (DPV)</string>
+
+    <!-- string for reporting back device temperature during temperature calibration -->
+    <string name="reported_temperature">現在の温度：%1$.2f°C</string>
+
+    <string name="analysis_complete">%1$s の解析が完了しました！</string>
+    <string name="equilibration_time_remaining">%1$s %2$d 秒 平衡化</string>
+
+    <string name="signal_amplitude">信号振幅 (ピークピーク)</string>
+    <string name="amplitude0">20mV</string>
+    <string name="amplitude1">40mV</string>
+    <string name="amplitude2">100mV</string>
+    <string name="amplitude3">200mV</string>
+    
+    <!-- formatted string for reporting back temperature standards stored in ABE EEPROM -->
+    <string name="temp_standards">既存のキャリブレーションポイント %1$.1f °Cおよび %2$.1f °C、MSTemp %3$.1f °C</string>
+    
+    <!-- string for reporting RFU value and saturation code in calibration activity -->
+    <string name="cal_report">レポート：未加工RFUリーディング %1$d 、飽和コード %2$d</string>
+    
+    <!-- string for reporting RFU value and saturation code in calibration activity -->
+    <string name="scaled_rfu_report">スケーリングされたRFU：%1$d</string>
+
+    <string name="axis_settings">軸の設定</string>
+    <string name="linearplot">リニア</string>
+    <string name="logplot">ログ</string>
+    <string name="nyquist">ナイキスト</string>
+
+    <!-- string for reporting RFU value and saturation code in calibration activity -->
+    <string name="rt_device_method">デバイス %1$s</string>
+    <string name="rt_device_disconnected">デバイス %1$s\n終了：%2$s (切断済み)</string>
+    <string name="rt_device_lost">デバイス %1$s が切断されました\n%2$s 不完全...</string>
+    
+    <!-- String to send to toast when user enters process parameters outside of valid range -->
+    <string name="outside_range_toast">%1$s は、 %2$dと%3$d の間で設定してください...</string>
+    
+    <!-- FileName String -->
+    <string name="file_name_string">%1$s__%2$s-%3$s-%4$s %5$s_%6$s_%7$s.csv</string>
+    <string name="date_string">%1$s/%2$s/%3$s %4$s:%5$s:%6$s</string>
+
+    <string name="vopen_report">開路電位：%1$s mV\nデバイスの温度：%2$.2f\u00B0C\n熱電対温度：%3$s</string>
+    <string name="resistor_report">セルDC抵抗：%1$s Ω\nデバイスの温度：%2$.2f\u00B0C\n熱電対温度：%3$s</string>
+    <string name="capacitor_report">セル容量：%1$s pF (フェーズ %2$s°)\nデバイスの温度：%3$.2f\u00B0C\n熱電対温度：%4$s</string>
+    <string name="current_report">セル電流：%2$s mVバイアスで %1$s nA\nデバイスの温度：%3$.2f\u00B0C\n熱電対温度：%4$s</string>
+    <string name="degrees_c">\u00B0C</string>
+
+    <string name="eis_report">f %1$sヘルツ\n|Z| %2$sΩ\nφ %3$s\u00B0</string>
+    <string name="cv_report">E（V）：%1$s\nI（nA）：%2$s</string>
+    <string name="temperature_report">デバイスの温度：%1$.2f\u00B0C\n熱電対温度：%2$s</string>
+    <string name="battery_report">バッテリー：%1$d％</string>
+
+    <!-- Method Summary formatting strings -->
+    <!---<string name="cv_method_string">&lt;b>%1$s (CV):&lt;/b>&lt;br/>%2$s V to %3$s V, %4$s V/s&lt;br/>%5$s s Equilibration, %6$s cycles&lt;br/>%7$s</string>
+    <string name="dpv_method_string">&lt;b>%1$s (DPV):&lt;/b>&lt;br/>%2$s V to %3$s V&lt;br/>%4$sHz %5$smV step %6$smV pulse&lt;br/>%7$s s Equilibration, %8$s cycles&lt;br/>%9$s</string>
+    <string name="eis_method_string">&lt;b>%1$s (EIS):&lt;/b>&lt;br/>%2$s Hz to %3$s Hz, \u0394%4$s Hz %5$s&lt;br/>%6$s s Equilibration at %7$s V bias&lt;br/>%8$s</string> -->
+
+    <string name="cv_method_string">%1$s (CV)：\n%2$s Vから %3$s Vへ、 %4$s V/秒\n%5$s 秒の平衡化、%6$s サイクル\n%7$s</string>
+    <string name="dpv_method_string">%1$s (DPV)：\n%2$s Vから %3$s Vへ\n%4$sヘルツ %5$s mV ステップ %6$s mV パルス\n%7$s 秒の平衡化、%8$s サイクル\n%9$s</string>
+    <!--<string name="eis_method_string">%1$s (EIS)：\n%2$s ヘルツから %3$s ヘルツへ、Δ %4$s ヘルツ %5$s\n%7$s Vバイアスで %6$s 秒の平均化\n%8$s</string>-->
+
+    <!-- Titles -->
+    <string name="new_method">解析設定</string>
+
+    <!-- New and orphaned strings translated September 2018 -->
+    <string name="analyzing">%1$sを分析中...</string>
+    <string name="time_heading">時間（分）</string>
+    <string name="open_circuit">回路を開く</string>
+    <string name="delete">ファイルを削除</string>
+    <string name="delete_dialog">選択したファイルを削除してもよろしいですか？</string>
+    <string name="default_slo">デフォルトの静的記録</string>
+    <string name="no_data_to_view">表示するデータを選択してください</string>
+    <string name="too_much_data_to_view">表示するデータファイルを1つだけ選択してください</string>
+    <string name="no_data_to_share">共有するファイルを選択してください</string>
+    <string name="no_files_to_delete">削除するファイルを選択してください</string>
+    <string name="eis_interval_frequency">周波数オーダーごとのサンプル</string>
+    <string name="applied_potential">付加電位（V）</string>
+    <string name="log_duration">記録時間（分）</string>
+    <string name="temperature">T（℃）</string>
+    <string name="static_logging">静的記録</string>
+    <string name="eis_method_string">%1$s (EIS):\n%2$s Hz ～ %3$s Hz, %4$s サンプル/オーダー %5$s ピーク\n %7$s V バイアスにおける%6$s  平衡\n%8$s</string>
+    <string name="applied_potential_string">%1$s V</string>
+    <string name="record_duration_string">%1$s 分</string>
+    <string name="open_ended_duration">開口</string>
+    <string name="static_record_string">%1$s (静的記録):\n%2$s s 平衡化\n記録時間 %3$s\n%4$s %5$s</string>
+</resources>

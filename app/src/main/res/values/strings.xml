@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--  ABE-Stat Activity Title and Buttons -->
+    <string name="app_name">ABE-Stat</string>
+    <string name="app_name_class">ABE-Stat</string>
+    <string name="connect_manager">CONNECT MENU</string>
+    <string name="start_analysis">Start Analysis</string>
+    <string name="dataviewheading">Saved Data: %1$s, %2$s</string>
+    <string name="analyzing">%1$s  analyzing&#8230;</string>
+    <string name="time_heading">Time (min)</string>
+
+    <string name="measure">Measurement Option</string>
+    <string name="electrode_config">Electrode Configuration</string>
+    <string name="vopen">Potential (mV)</string>
+    <string name="ibiased">I (nA)</string>
+    <string name="resistor">R (\u2126)</string>
+    <string name="capacitor">C (pF)</string>
+    <string name="three_electrode">3 Electrode</string>
+    <string name="two_electrode">2 Electrode</string>
+    <string name="open_circuit">Open Circuit</string>
+    <string name="bias_voltage">Bias Voltage (mV)</string>
+    
+    <!--  Bluetooth -->
+    <string name="send">E-mail files</string>
+    <string name="view">Plot data</string>
+    <string name="delete">Delete files</string>
+    <string name="delete_dialog">Are you sure you want to delete the selected file(s)?</string>
+    <string name="not_connected">You are not connected to a device</string>
+    <string name="bt_not_enabled_leaving">Bluetooth was not enabled. Leaving ABEStat</string>
+    <string name="title_connecting">Connecting&#8230;</string>
+    <string name="title_connected_to">Connected: </string>
+    <string name="title_not_connected">Not Connected</string>
+    <string name="unrecoverable_break">device unresponsive, remote reset&#8230;</string>
+    <string name="restoring_connection">trying to restore connection&#8230;</string>
+
+    <!-- Default Method Strings -->
+    <string name="default_cv">Default Cyclic Voltammetry</string>
+    <string name="default_eis">Default Electrochemical Impedance Spectroscopy</string>
+    <string name="default_dpv">Default Differential Pulse Voltammetry</string>
+    <string name="default_asv">Default Anodic Stripping Voltammetry</string>
+    <string name="default_slo">Default Static Recording</string>
+
+    <!--  DeviceListActivity -->
+    <string name="scanning">scanning for devices&#8230;</string>
+    <string name="select_device">select a device to connect</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">No devices found</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="button_scan">Scan for devices</string>
+    <string name="cancel">Cancel</string>
+    <string name="disconnect">Disconnect</string>
+
+    <!-- Options Menu -->
+    <string name="share_data">Share data</string>
+    <string name="choices">OPTIONS</string>
+    <string name="connect">CONNECT MENU</string>
+    <string name="analysis">Edit methods</string>
+    <string name="shutdown">Remote Shutdown</string>
+
+    <string name="no_data_to_view">Please select data to view</string>
+    <string name="too_much_data_to_view">Please select only one data file to view</string>
+    <string name="no_data_to_share">Please select file(s) to share</string>
+    <string name="no_files_to_delete">Please select file(s) to delete</string>
+    
+    <!-- Database edit fields for updating real time LAMP method -->
+    <string name="no_methods">No Methods Yet</string>
+    <string name="methods_list">Select Analysis Method</string>
+    <string name="settings_manager">ANALYSIS METHOD</string>
+    <string name="menu_insert">Add New Method</string>
+    <string name="menu_delete">Delete Method</string>
+
+    <string name="eis_start_frequency">Start Frequency (Hz)</string>
+    <string name="eis_end_frequency">End Frequency (Hz)</string>
+    <string name="eis_interval_frequency">Samples per Frequency Decade</string>
+    <string name="eis_bias_voltage">DC Bias Voltage (V)</string>
+    <string name="start_voltage">Start Voltage (V)</string>
+    <string name="applied_potential">Applied Potential (V)</string>
+    <string name="end_voltage">End Voltage (V)</string>
+    <string name="scan_rate">Scan Rate (V/s)</string>
+    <string name="scan_number">Number of Cycles</string>
+    <string name="log_duration">Record Duration (min)</string>
+    <string name="step_frequency">Step Frequency (Hz)</string>
+    <string name="step_e">Step Potential (mV)</string>
+    <string name="pulse_amplitude">Pulse Amplitude (mV)</string>
+    <string name="electrode_configuration">Electrode Configuration</string>
+    <string name="open_circuit_config">Open Circuit Configuration</string>
+    <string name="two_electrode_configuration">2 Electrode Configuration</string>
+    <string name="three_electrode_configuration">3 Electrode Configuration</string>
+    <string name="equilibrium_time">Equilibration Time (s)</string>
+    <string name="method_name">Method Name</string>
+    <string name="confirm">Confirm</string>
+    <string name="infinite">Infinite</string>
+    <string name="methods_heading">Defined Methods (click to edit, long click to delete):</string>
+    <string name="method_default">Method</string>
+    <string name="exit">Exit&#8230;</string>
+    <string name="lazy_method">New settings don\'t do anything- changes not saved!</string>
+    
+    <!-- Real_Time_Activity Strings -->
+    <string name="spectrum">Spectrum</string>
+    <string name="gray">Grayscale</string>
+    <string name="quit">QUIT</string>
+    <string name="save_data">Save Data</string>
+    <string name="data_select">Chart Data:</string>
+    <string name="impedance">\u007CZ\u007C (\u03A9)</string>
+    <string name="zreal">Zreal (\u03A9)</string>
+    <string name="zimag">-Zimag (\u03A9)</string>
+    <string name="phi">\u03C6 (\u00B0)</string>
+    <string name="potential">E (V)</string>
+    <string name="current">I (nA)</string>
+    <string name="frequency">f (Hz)</string>
+    <string name="temperature">T (\u00B0C)</string>
+    <string name="log_f">log(f) / Hz</string>
+    <string name="log_z">log\u007CZ\u007C / \u03A9</string>
+    <string name="chart_data">Chart Data:</string>
+    <string name="quit_query">Are you sure you want to quit real-time analyis?</string>
+    <string name="exit_query">Are you sure you want to exit data viewer?</string>
+    <string name="cal_query">Are you sure you want to overwrite calibration data?</string>
+    <string name="batt_query">Are you sure the battery is fully charged?</string>
+    <string name="ctrl_query">Are you sure you want to enter the new set point?</string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+    <string name="data_labels">Label samples</string>
+    <string name="ext_not_available">Warning: the external data storage is not available to write data to!</string>
+    <string name="not_heating">Device not heating as expected- heater shutting down! Check sensor and heater&#8230;</string>
+    <string name="too_hot">Device exceeded safe operating temperature- heater shutting down!</string>
+    <string name="file_not_written">External storage is not currently writable- data not saved&#8230;</string>
+    <string name="file_save_not_checked">Data not saved</string>
+    <string name="files_not_read">External storage not available, or data directory does not yet exist&#8230;</string>
+    <string name="no_bluetooth_device">This android device does not have bluetooth...</string>
+    <string name="bluetooth_not_on">Bluetooth not currently enabled...</string>
+    <string name="insufficient_battery">Insufficient Battery...</string>
+    
+    <!-- AttachActivity and Data_View_Activity Strings -->
+    <string name="files_heading">ABEStat Files Available for Sharing:</string>
+    <string name="file_sharing">File Sharing</string>
+    <string name="back_to_main">Return to Main</string>
+    <string name="file_corrupted">File corrupted- could not parse data!</string>
+
+    <!-- Available Methodology Strings -->
+    <string name="cyclic_voltammetry">Cyclic Voltammetry (CV)</string>
+    <string name="electrochemical_impedance_spectroscopy">Electrochemical Impedance Spectroscopy (EIS)</string>
+    <string name="anodic_stripping_voltammetry">Anodic Stripping Voltammetry (ASV)</string>
+    <string name="differential_pulse_voltammetry">Differential Pulse Voltammetry (DPV)</string>
+    <string name="static_logging">Static Recording</string>
+
+    <!-- string for reporting back device temperature during temperature calibration -->
+    <string name="reported_temperature">Current Temperature: %1$.2f\u00B0C</string>
+
+    <string name="analysis_complete">%1$s Analysis Complete!</string>
+    <string name="equilibration_time_remaining">%1$s %2$d s Equilibrating</string>
+
+    <string name="signal_amplitude">Signal Amplitude (peak)</string>
+    <string name="amplitude0">10mV</string>
+    <string name="amplitude1">20mV</string>
+    <string name="amplitude2">50mV</string>
+    <string name="amplitude3">100mV</string>
+    
+    <!-- formatted string for reporting back temperature standards stored in ABE EEPROM -->
+    <string name="temp_standards">Existing calibration points at %1$.1f\u00B0C and %2$.1f\u00B0C, MSTemp- %3$.1f\u00B0C</string>
+    
+    <!-- string for reporting RFU value and saturation code in calibration activity -->
+    <string name="cal_report">Report: raw RFU reading %1$d, saturation code %2$d</string>
+    
+    <!-- string for reporting RFU value and saturation code in calibration activity -->
+    <string name="scaled_rfu_report">Scaled RFU: %1$d</string>
+
+    <string name="axis_settings">Axis Settings</string>
+    <string name="linearplot">Linear</string>
+    <string name="logplot">Log</string>
+    <string name="nyquist">Nyquist</string>
+
+    <!-- string for reporting RFU value and saturation code in calibration activity -->
+    <string name="rt_device_method">Device %1$s\n</string>
+    <string name="rt_device_disconnected">Device %1$s\ncompleted:%2$s (disconnected)</string>
+    <string name="rt_device_lost">Device %1$s connection lost\n%2$s incomplete...</string>
+    
+    <!-- String to send to toast when user enters process parameters outside of valid range -->
+    <string name="outside_range_toast">%1$s must lie between %2$d and %3$d&#8230;</string>
+    
+    <!-- FileName String -->
+    <string name="file_name_string">%1$s__%2$s-%3$s-%4$s %5$s_%6$s_%7$s.csv</string>
+    <string name="date_string">%1$s/%2$s/%3$s %4$s:%5$s:%6$s</string>
+
+    <string name="vopen_report">Open Circuit Potential: %1$s mV\nDevice Temperature: %2$.2f\u00B0C\nThermocouple Temperature: %3$s</string>
+    <string name="resistor_report">Cell DC Resistance: %1$s \u2126\nDevice Temperature: %2$.2f\u00B0C\nThermocouple Temperature: %3$s</string>
+    <string name="capacitor_report">Cell Capacitance: %1$s pF (phase %2$s\u00B0)\nDevice Temperature: %3$.2f\u00B0C\nThermocouple Temperature: %4$s</string>
+    <string name="current_report">Cell Current: %1$s nA at %2$s mV bias\nDevice Temperature: %3$.2f\u00B0C\nThermocouple Temperature: %4$s</string>
+    <string name="degrees_c">\u00B0C</string>
+
+    <string name="eis_report">f %1$s Hz\n\u007CZ\u007C %2$s\u03A9\n\u03C6 %3$s\u00B0</string>
+    <string name="cv_report">E(V): %1$s\nI(nA): %2$s</string>
+    <string name="temperature_report">Device Temperature: %1$.2f\u00B0C\nThermocouple Temperature: %2$s</string>
+    <string name="battery_report">Battery: %1$d</string>
+    <!--string name="battery_report">Battery: %1$d\u0025</string  unicode character \u0025 also throws end of string error(!?)-->
+    <!--string name="battery_report">Battery: %1$d&#37;</string    &#37; character for "%" throws and end of String error (!?)-->
+
+    <!-- Method Summary formatting strings -->
+    <!---<string name="cv_method_string">&lt;b>%1$s (CV):&lt;/b>&lt;br/>%2$s V to %3$s V, %4$s V/s&lt;br/>%5$s s Equilibration, %6$s cycles&lt;br/>%7$s</string>
+    <string name="dpv_method_string">&lt;b>%1$s (DPV):&lt;/b>&lt;br/>%2$s V to %3$s V&lt;br/>%4$sHz %5$smV step %6$smV pulse&lt;br/>%7$s s Equilibration, %8$s cycles&lt;br/>%9$s</string>
+    <string name="eis_method_string">&lt;b>%1$s (EIS):&lt;/b>&lt;br/>%2$s Hz to %3$s Hz, \u0394%4$s Hz %5$s&lt;br/>%6$s s Equilibration at %7$s V bias&lt;br/>%8$s</string> -->
+
+    <string name="cv_method_string">%1$s (CV):\n%2$s V to %3$s V, %4$s V/s\n%5$s s Equilibration, %6$s cycles\n%7$s</string>
+    <string name="dpv_method_string">%1$s (DPV):\n%2$s V to %3$s V\n%4$sHz %5$smV step %6$smV pulse\n%7$s s Equilibration, %8$s cycles\n%9$s</string>
+    <string name="eis_method_string">%1$s (EIS):\n%2$s Hz to %3$s Hz, %4$s samples/decade %5$s peak\n%6$s s Equilibration at %7$s V bias\n%8$s</string>
+    <string name="static_record_string">%1$s (Static Record):\n%2$s s Equilibration\n%3$s Duration\n%4$s %5$s</string>
+    <string name="applied_potential_string">%1$s V</string>
+    <string name="record_duration_string">%1$s min</string>
+    <string name="open_ended_duration">Open Ended</string>
+
+    <!-- Titles -->
+    <string name="new_method">Analysis Settings</string>
+    
+</resources>

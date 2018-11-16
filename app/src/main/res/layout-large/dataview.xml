@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <FrameLayout android:id="@+id/dataview_chart_with_controls"
+        android:layout_alignParentTop="true"
+        android:layout_height="400dp"
+        android:layout_width="fill_parent" >
+
+        <RelativeLayout android:id="@+id/dataview_chart_layout"
+            android:layout_alignParentTop="true"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent" >
+
+            <com.artfulbits.aiCharts.ChartView
+                android:id="@+id/dataview_chart1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:paddingRight="10dp"
+                chart="@xml/chart"
+                android:background="#000" />
+
+            <LinearLayout android:id="@+id/dataview_threshold_controls"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:paddingBottom="50dp"
+                android:paddingRight="20dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center" >
+
+                <ImageView android:id="@+id/dataview_thresh_up"
+                    android:src="@drawable/arrow_up"
+                    android:alpha="0.35"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView android:id="@+id/dataview_threshold_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#8080"
+                    android:gravity="center" />
+
+                <ImageView android:id="@+id/dataview_thresh_down"
+                    android:src="@drawable/arrow_down"
+                    android:alpha="0.35"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </FrameLayout>
+
+    <LinearLayout android:id="@+id/dataview_main_bottom_button_cluster"
+        android:layout_alignParentBottom="true"
+        style="@style/TabBar">
+
+        <Button android:id="@+id/dataview_quit_button"
+            android:text="@string/quit"
+            android:layout_weight="1"
+            style="@style/TabBar_Items" />
+
+    </LinearLayout>
+
+    <ScrollView android:id="@+id/dataview_label_scrollview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dataview_chart_with_controls"
+        android:layout_above="@id/dataview_main_bottom_button_cluster"
+        android:padding="10dp" >
+
+        <RelativeLayout android:id="@+id/dataview_rtlamptop_frame"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <RelativeLayout android:id="@+id/dataview_summary_and_controls"
+                android:layout_width="fill_parent"
+                android:layout_alignParentTop="true"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <TextView android:id="@+id/dataview_method_title"
+                    android:layout_width="wrap_content"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:textColor="#CCC" />
+
+                <TextView android:id="@+id/dataview_method_summary"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@id/dataview_method_title"
+                    android:maxLines="4"
+                    android:textColor="#888" />
+
+                <TextView android:id="@+id/dataview_temp_report"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/dataview_method_summary"
+                    android:layout_alignParentLeft="true"
+                    android:textColor="#CCC" />
+
+                <RelativeLayout android:id="@+id/dataview_chart_controls"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true" >
+
+                    <TextView android:id="@+id/dataview_axes_settings"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:textColor="#CDC"
+                        android:text="@string/axis_settings" />
+
+                    <RadioGroup android:id="@+id/dataview_axes_select"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/dataview_axes_settings"
+                        android:layout_alignParentRight="true"
+                        android:orientation="horizontal" >
+
+                        <RadioButton android:id="@+id/dataview_logplot"
+                            android:text="@string/logplot"
+                            android:textColor="#CDC"
+                            android:checked="true"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:onClick="onRadioButtonClicked" />
+
+                        <RadioButton android:id="@+id/dataview_linearplot"
+                            android:text="@string/linearplot"
+                            android:textColor="#CDC"
+                            android:checked="true"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:onClick="onRadioButtonClicked" />
+
+                        <RadioButton android:id="@+id/dataview_nyquist"
+                            android:text="@string/nyquist"
+                            android:textColor="#CDC"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:onClick="onRadioButtonClicked" />
+
+                    </RadioGroup>
+
+                    <TextView android:id="@+id/dataview_chart_data_select"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/dataview_axes_select"
+                        android:layout_alignParentRight="true"
+                        android:textColor="#CDC"
+                        android:text="@string/data_select" />
+
+                    <RadioGroup android:id="@+id/dataview_data_select_group"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/dataview_chart_data_select"
+                        android:layout_alignParentRight="true"
+                        android:orientation="horizontal" >
+
+                        <RadioButton android:id="@+id/dataview_z_magnitude"
+                            android:text="@string/impedance"
+                            android:textColor="#CDC"
+                            android:checked="true"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:onClick="onRadioButtonClicked" />
+
+                        <RadioButton android:id="@+id/dataview_phi"
+                            android:text="@string/phi"
+                            android:textColor="#CDC"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:onClick="onRadioButtonClicked" />
+
+                    </RadioGroup>
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
